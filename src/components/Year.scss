@@ -1,0 +1,36 @@
+.year {
+    display: flex;
+    flex-direction: row;
+    margin: 8px 0px;
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        .year {
+            margin: 0px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--ion-color-medium);
+        }
+        .age {
+            margin: 8px 0px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--ion-color-dark);
+        }
+    }
+
+    .weeksContainer {
+        .weeks {
+            width: (18+4)*13px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            .week{
+                --size: 18px;
+            }
+        }
+    }
+}

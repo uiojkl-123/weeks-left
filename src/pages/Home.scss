@@ -1,0 +1,11 @@
+.home{
+
+    ion-content{
+        .fab{
+            z-index: 20000;
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+        }
+    }
+}
